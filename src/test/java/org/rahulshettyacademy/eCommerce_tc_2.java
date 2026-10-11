@@ -71,6 +71,7 @@ public class eCommerce_tc_2 extends AndroidBaseTest{
 		//changing code below for git changes tracking
 
 		driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"Argentina\"));"));
-			
+		driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"Argentina\"));"));
+
 	}
 }
